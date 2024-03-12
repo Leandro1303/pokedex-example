@@ -1,0 +1,20 @@
+.pokemon-card-list {
+    width: 80%; /* Cubre el 80% de la pantalla */
+    max-width: 1020px;
+    display: grid;
+    grid-template-rows: repeat(auto-fit, 190px);
+    grid-template-columns: repeat(auto-fit, minmax(185px, 1fr));
+    grid-gap: 1em;
+    margin-bottom: 10px;
+}
+
+.cards-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pokemon-list-container {
+    width: 100%;
+    margin-bottom: 20px;
+}

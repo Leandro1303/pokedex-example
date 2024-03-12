@@ -1,0 +1,28 @@
+.pokemon-card {
+    width: 165px;
+    height: 155px;
+    border-radius: 15px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    text-overflow: ellipsis;
+    justify-items: center;
+    align-items: center;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px grey;
+}
+
+.pokemon-card:hover {
+    transform: scale(1.02);
+    box-shadow: 1px 1px 20px grey;
+}
+
+#card-img {
+    width: 96px;
+    aspect-ratio: 1;
+}
+
+p {
+    margin: 0;
+}
